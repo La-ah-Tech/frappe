@@ -1,4 +1,5 @@
 $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 4.00001L2.66667 5.80001L7 1.20001' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+
 [data-theme="dark"] {
 	--neutral: var(--neutral-black);
 	--invert-neutral: var(--neutral-white);
@@ -41,9 +42,9 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 	--popover-bg: var(--bg-color);
 
 	// Button Colors
-	--btn-default-bg: var(--gray-800);
-	--btn-default-hover-bg: var(--gray-700);
-	--btn-primary: var(--gray-300);
+	--btn-default-bg: var(--purple-700);
+	--btn-default-hover-bg: var(--purple-800);
+	--btn-primary: var(--purple-700);
 
 	// Border Colors
 	--border-primary: var(--gray-200);
@@ -128,26 +129,24 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 
 	// checkbox
 	--checkbox-color: var(--neutral-white);
-	--checkbox-gradient: linear-gradient(
-		180deg,
+	--checkbox-gradient: linear-gradient(180deg,
 		var(--neutral-white) -124.51%,
-		var(--neutral-white) 100%
-	);
-	--checkbox-disabled-gradient: linear-gradient(
-		180deg,
+		var(--neutral-white) 100%);
+	--checkbox-disabled-gradient: linear-gradient(180deg,
 		var(--gray-600) -124.51%,
-		var(--gray-600) 100%
-	);
+		var(--gray-600) 100%);
 	--checkbox-focus-shadow: var(--focus-default);
 
 	input[type="checkbox"] {
 		&:checked {
 			background-image: $check-icon-dark, var(--checkbox-gradient);
 		}
+
 		&.disabled-selected,
 		&:disabled:checked {
 			background-image: $check-icon-dark, var(--checkbox-disabled-gradient);
 		}
+
 		&.disabled-deselected {
 			border: none;
 			background-color: var(--gray-700);
@@ -167,6 +166,7 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 		--control-bg: var(--gray-900);
 		--input-disabled-bg: var(--gray-800);
 	}
+
 	color-scheme: dark;
 
 	.frappe-card {
@@ -192,7 +192,9 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 
 	.ql-editor {
 		color: var(--text-on-gray);
+
 		&.read-mode {
+
 			span:not(.mention),
 			p,
 			u,
@@ -202,9 +204,11 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 			}
 		}
 	}
+
 	.comment-input-wrapper .ql-editor.ql-blank::before {
 		color: var(--text-color);
 	}
+
 	// --appreciation-color: var(--dark-green-100);
 	// --appreciation-bg: var(--dark-green-600);
 	// --criticism-color: var(--red-100);
@@ -229,7 +233,7 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 
 	// find better fix
 	.heatmap-chart {
-		g > rect[fill="#ebedf0"] {
+		g>rect[fill="#ebedf0"] {
 			fill: var(--gray-700);
 		}
 	}
@@ -237,6 +241,7 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 	.rating {
 		// rating
 		--star-fill: var(--gray-500);
+
 		.star-hover {
 			--star-fill: var(--gray-400);
 		}
@@ -256,6 +261,7 @@ $check-icon-dark: url("data:image/svg+xml, <svg viewBox='0 0 8 7' fill='none' xm
 
 	$indicator-colors: green, cyan, blue, orange, yellow, gray, grey, red, pink, darkgrey, purple,
 		light-blue;
+
 	@each $color in $indicator-colors {
 		.indicator {
 			--indicator-dot-#{"" + $color}: var(--bg-#{$color});

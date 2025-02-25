@@ -2,8 +2,19 @@
 $color_list: gray, blue, green, red, orange, amber, yellow, cyan, teal, violet, pink, purple,
 	white-overlay, black-overlay;
 
+$gray-50: #edf0ff;
+$gray-100: #dee4ff;
+$gray-200: #c3ccff;
+$gray-300: #9faaff;
+$gray-400: #797eff;
+$gray-500: #615afa;
+$gray-600: #513cef;
+$gray-700: #4731d4;
+$gray-800: #3829aa;
+$gray-900: #322986;
+
 $gray-50: #f8f8f8;
-$gray-100: #f3f3f3;
+$gray-100: #dee4ff;
 $gray-200: #ededed;
 $gray-300: #e2e2e2;
 $gray-400: #c7c7c7;
@@ -13,7 +24,7 @@ $gray-700: #525252;
 $gray-800: #383838;
 $gray-900: #171717;
 
-$primary: $gray-900;
+$primary: $gray-700;
 $primary-light: lighten($primary, 80%) !default;
 
 $danger: #e03636;
@@ -146,16 +157,19 @@ $light-yellow: #fef4e2;
 	--pink-800: #801458;
 	--pink-900: #570f3e;
 
-	--purple-50: #fdfaff;
-	--purple-100: #f9f0ff;
-	--purple-200: #f1e5fa;
-	--purple-300: #e9d6f5;
-	--purple-400: #d6c1e6;
-	--purple-500: #9c45e3;
-	--purple-600: #8642c2;
-	--purple-700: #6e399d;
-	--purple-800: #5c2f83;
-	--purple-900: #401863;
+	--purple-50: #edf0ff;
+	--purple-100: #dee4ff;
+	--purple-200: #c3ccff;
+	--purple-300: #9faaff;
+	--purple-400: #797eff;
+	--purple-500: #615afa;
+	--purple-600: #513cef;
+	--purple-700: #4731d4;
+	--purple-800: #3829aa;
+	--purple-900: #322986;
+	--purple-950: #1e184e;
+
+
 
 	// overlays
 	--white-overlay-50: rgba(255, 255, 255, 0.09);
@@ -181,25 +195,17 @@ $light-yellow: #fef4e2;
 	--black-overlay-900: rgba(0, 0, 0, 0.9);
 
 	// gradients
-	--linear-black: linear-gradient(
-		to bottom,
-		rgba(46, 46, 46, 0.18) 0%,
-		rgba(36, 36, 36, 0.14) 100%
-	);
-	--linear-blue: linear-gradient(
-		to bottom,
-		rgba(17, 142, 245, 0.067) 0%,
-		rgba(7, 127, 247, 0.029) 100%
-	);
+	--linear-black: linear-gradient(to bottom,
+			rgba(46, 46, 46, 0.18) 0%,
+			rgba(36, 36, 36, 0.14) 100%);
+	--linear-blue: linear-gradient(to bottom,
+			rgba(17, 142, 245, 0.067) 0%,
+			rgba(7, 127, 247, 0.029) 100%);
 	--angular-white: conic-gradient(rgba(255, 255, 255, 1) 72.38%, rgba(255, 255, 255, 1) 99.87%);
 	--angular-black: conic-gradient(rgba(56, 56, 56, 0.22) 72.38%, rgba(56, 56, 56, 0.22) 99.87%);
-	--angular-green: conic-gradient(
-		rgba(23, 117, 75, 0.092) 72.38%,
-		rgba(23, 117, 75, 0.092) 99.87%
-	);
-	--angular-red: conic-gradient(
-		rgba(205, 41, 41, 0.804) 72.38%,
-		rgba(205, 41, 41, 0.804) 99.87%
-	);
+	--angular-green: conic-gradient(rgba(23, 117, 75, 0.092) 72.38%,
+			rgba(23, 117, 75, 0.092) 99.87%);
+	--angular-red: conic-gradient(rgba(205, 41, 41, 0.804) 72.38%,
+			rgba(205, 41, 41, 0.804) 99.87%);
 	--angular-blue: conic-gradient(rgba(0, 110, 219, 0) 72.38%, rgba(0, 110, 219, 0) 99.87%);
 }
