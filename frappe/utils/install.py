@@ -51,9 +51,13 @@ def after_install():
 		f.write("")
 
 	add_standard_navbar_items()
+	add_app_name()
 
 	frappe.db.commit()
 
+def add_app_name():
+	frappe.db.set_single_value("Website Settings", "app_name", "LaahTech EM")
+	frappe.db.set_single_value("System Settings", "app_name", "LaahTech EM")
 
 def create_user_type():
 	for user_type in ["System User", "Website User"]:

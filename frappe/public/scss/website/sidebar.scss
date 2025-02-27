@@ -34,6 +34,12 @@
 	width: 24px;
 	height: 24px;
 	display: inline-block;
+
+	.icon {
+		color: var(--secondary-600);
+		--icon-stroke: currentColor;
+		stroke: currentColor;
+	}
 }
 
 .sidebar-group {
@@ -45,7 +51,7 @@
 		line-height: 1.5;
 	}
 
-	> ul {
+	>ul {
 		padding-left: 0.5rem;
 		margin-bottom: 2rem;
 	}
