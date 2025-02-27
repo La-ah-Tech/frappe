@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-Project: frappe\n"
 "X-Crowdin-Project-ID: 639578\n"
 "X-Crowdin-Language: fa\n"
-"X-Crowdin-File: /[frappe.frappe] version-15-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File: /[frappe.frappe] laahtech-em-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 66\n"
 "Language: fa_IR\n"
 
@@ -584,8 +584,8 @@ msgstr ">="
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
-msgstr "یک DocType (نوع سند) برای درج فرم ها در ERPNext استفاده می شود. فرم هایی مانند مشتری، سفارش‌ها و فاکتورها در باطن Doctypes هستند. همچنین می‌توانید DocType‌های جدیدی برای ایجاد فرم‌های جدید در ERPNext بر اساس نیازهای کسب‌وکار خود ایجاد کنید."
+msgid "A DocType (Document Type) is used to insert forms in LaahTech-EM. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in LaahTech-EM as per your business needs."
+msgstr "یک DocType (نوع سند) برای درج فرم ها در LaahTech-EM استفاده می شود. فرم هایی مانند مشتری، سفارش‌ها و فاکتورها در باطن Doctypes هستند. همچنین می‌توانید DocType‌های جدیدی برای ایجاد فرم‌های جدید در LaahTech-EM بر اساس نیازهای کسب‌وکار خود ایجاد کنید."
 
 #: frappe/core/doctype/doctype/doctype.py:1010
 msgid "A DocType's name should start with a letter and can only consist of letters, numbers, spaces, underscores and hyphens"
@@ -8098,7 +8098,7 @@ msgstr "خروج"
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgid "Each document created in LaahTech-EM can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
 msgstr ""
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
@@ -8971,8 +8971,8 @@ msgstr "نام پوشه را وارد کنید"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "پارامترهای url ثابت را در اینجا وارد کنید (به عنوان مثال، فرستنده=ERPNext، نام کاربری=ERPNext، رمز عبور=1234 و غیره)"
+msgid "Enter static url parameters here (Eg. sender=LaahTech-EM, username=LaahTech-EM, password=1234 etc.)"
+msgstr "پارامترهای url ثابت را در اینجا وارد کنید (به عنوان مثال، فرستنده=LaahTech-EM، نام کاربری=LaahTech-EM، رمز عبور=1234 و غیره)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9160,7 +9160,7 @@ msgstr "رویدادها در تقویم امروز"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in LaahTech-EM has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
 msgstr ""
 
@@ -12319,7 +12319,7 @@ msgstr "در روزهای"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgid "In LaahTech-EM, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
 msgstr ""
 
 #. Label of a Check field in DocType 'DocField'
@@ -12388,7 +12388,7 @@ msgstr "در فیلتر استاندارد"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in LaahTech-EM by pulling values from the same multiple LaahTech-EM tables.\n"
 msgstr ""
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
@@ -28630,8 +28630,8 @@ msgstr "گردش کار با موفقیت به روز شد"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
-msgstr "گردش کار به شما اجازه می دهد تا قوانین سفارشی را برای فرآیند تأیید یک سند خاص در ERPNext تعریف کنید. همچنین می توانید قوانین پیچیده گردش کار را تنظیم کنید و شرایط تأیید را تنظیم کنید."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in LaahTech-EM. You can also set complex Workflow Rules and set approval conditions."
+msgstr "گردش کار به شما اجازه می دهد تا قوانین سفارشی را برای فرآیند تأیید یک سند خاص در LaahTech-EM تعریف کنید. همچنین می توانید قوانین پیچیده گردش کار را تنظیم کنید و شرایط تأیید را تنظیم کنید."
 
 #. Linked DocType in Module Def's connections
 #. Label of a Section Break field in DocType 'User'
@@ -31741,4 +31741,3 @@ msgstr "{} در PATH یافت نشد! این مورد برای تهیه نسخه
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:4
 msgid "← Back to upload files"
 msgstr "← بازگشت به آپلود فایل ها"
-

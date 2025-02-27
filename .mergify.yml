@@ -2,23 +2,23 @@ pull_request_rules:
   - name: Auto-close PRs on stable branch
     conditions:
       - and:
-        - and:
-          - author!=surajshetty3416
-          - author!=deepeshgarg007
-          - author!=ankush
-          - author!=frappe-pr-bot
-          - author!=mergify[bot]
-        - or:
-          - base=version-15
-          - base=version-14
-          - base=version-13
-          - base=version-12
+          - and:
+              - author!=surajshetty3416
+              - author!=deepeshgarg007
+              - author!=ankush
+              - author!=frappe-pr-bot
+              - author!=mergify[bot]
+          - or:
+              - base=laahtech-em
+              - base=version-14
+              - base=version-13
+              - base=version-12
     actions:
       close:
       comment:
-          message: |
-            @{{author}}, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
-            https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
+        message: |
+          @{{author}}, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
+          https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
 
   - name: Automatic merge on CI success and review
     conditions:
@@ -37,9 +37,9 @@ pull_request_rules:
       merge:
         method: squash
         commit_message_template: |
-            {{ title }} (#{{ number }})
+          {{ title }} (#{{ number }})
 
-            {{ body }}
+          {{ body }}
 
   - name: backport to develop
     conditions:
@@ -70,4 +70,3 @@ pull_request_rules:
           - version-14-hotfix
         assignees:
           - "{{ author }}"
-

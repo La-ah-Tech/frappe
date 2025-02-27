@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-Project: frappe\n"
 "X-Crowdin-Project-ID: 639578\n"
 "X-Crowdin-Language: bs\n"
-"X-Crowdin-File: /[frappe.frappe] version-15-hotfix/frappe/locale/main.pot\n"
+"X-Crowdin-File: /[frappe.frappe] laahtech-em-hotfix/frappe/locale/main.pot\n"
 "X-Crowdin-File-ID: 66\n"
 "Language: bs_BA\n"
 
@@ -767,8 +767,8 @@ msgstr ">="
 
 #. Description of the Onboarding Step 'Custom Document Types'
 #: frappe/custom/onboarding_step/custom_doctype/custom_doctype.json
-msgid "A DocType (Document Type) is used to insert forms in ERPNext. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in ERPNext as per your business needs."
-msgstr "DocType (Document Type) se koristi za umetanje obrazaca u ERPNext. Obrasci kao što su Kupac, Narudžbe i Fakture su tipovi dokumenata u pozadini. Također možete kreirati nove DocType za kreiranje novih obrazaca u ERPNext prema vašim poslovnim potrebama."
+msgid "A DocType (Document Type) is used to insert forms in LaahTech-EM. Forms such as Customer, Orders, and Invoices are Doctypes in the backend. You can also create new DocTypes to create new forms in LaahTech-EM as per your business needs."
+msgstr "DocType (Document Type) se koristi za umetanje obrazaca u LaahTech-EM. Obrasci kao što su Kupac, Narudžbe i Fakture su tipovi dokumenata u pozadini. Također možete kreirati nove DocType za kreiranje novih obrazaca u LaahTech-EM prema vašim poslovnim potrebama."
 
 #: frappe/core/doctype/doctype/doctype.py:1010
 msgid "A DocType's name should start with a letter and can only consist of letters, numbers, spaces, underscores and hyphens"
@@ -8287,8 +8287,8 @@ msgstr "ESC"
 
 #. Description of the Onboarding Step 'Setup Naming Series'
 #: frappe/custom/onboarding_step/naming_series/naming_series.json
-msgid "Each document created in ERPNext can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
-msgstr "Svaki dokument kreiran u ERPNext-u može imati jedinstveni ID generisan za njega, koristeći prefiks definisan za njega. Iako svaki dokument ima neki unaprijed konfiguriran prefiks, možete ga dodatno prilagoditi pomoću alata kao što su Alat za imenovanje serije i Pravilo imenovanja dokumenata.\n"
+msgid "Each document created in LaahTech-EM can have a unique ID generated for it, using a prefix defined for it. Though each document has some prefix pre-configured, you can further customize it using tools like Naming Series Tool and Document Naming Rule.\n"
+msgstr "Svaki dokument kreiran u LaahTech-EM-u može imati jedinstveni ID generisan za njega, koristeći prefiks definisan za njega. Iako svaki dokument ima neki unaprijed konfiguriran prefiks, možete ga dodatno prilagoditi pomoću alata kao što su Alat za imenovanje serije i Pravilo imenovanja dokumenata.\n"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #: frappe/core/doctype/comment/comment.json
@@ -9161,8 +9161,8 @@ msgstr "Unesite naziv fascikle"
 #. Description of the 'Static Parameters' (Table) field in DocType 'SMS
 #. Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
-msgid "Enter static url parameters here (Eg. sender=ERPNext, username=ERPNext, password=1234 etc.)"
-msgstr "Ovdje unesite statičke parametre URL-a (npr. pošiljatelj=ERPNext, korisničko ime=ERPNext, lozinka=1234 itd.)"
+msgid "Enter static url parameters here (Eg. sender=LaahTech-EM, username=LaahTech-EM, password=1234 etc.)"
+msgstr "Ovdje unesite statičke parametre URL-a (npr. pošiljatelj=LaahTech-EM, korisničko ime=LaahTech-EM, lozinka=1234 itd.)"
 
 #. Description of the 'Message Parameter' (Data) field in DocType 'SMS
 #. Settings'
@@ -9350,7 +9350,7 @@ msgstr "Događaji u današnjem kalendaru"
 
 #. Description of the Onboarding Step 'Create Custom Fields'
 #: frappe/custom/onboarding_step/custom_field/custom_field.json
-msgid "Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
+msgid "Every form in LaahTech-EM has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n\n"
 "Once custom fields are added, you can use them for reports and analytics charts as well.\n"
 msgstr "Svaki obrazac u ERPNextu ima standardni skup polja. Ako trebate da snimite neke informacije, ali ne postoji standardno polje dostupno za to, možete umetnuti prilagođeno polje za to.\n\n"
 "Kada se dodaju prilagođena polja, možete ih koristiti i za izvještaje i analitičke grafikone.\n"
@@ -12510,8 +12510,8 @@ msgstr "U danima"
 
 #. Description of the Onboarding Step 'Setup Limited Access for a User'
 #: frappe/custom/onboarding_step/role_permissions/role_permissions.json
-msgid "In ERPNext, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
-msgstr "U ERPNext-u možete dodati svoje zaposlenike kao korisnike i dati im ograničen pristup. Alati kao što su Dozvola za ulogu i Dozvola korisnika omogućavaju vam da definišete pravila koja daju ograničen pristup korisniku masterima i transakcijama."
+msgid "In LaahTech-EM, you can add your Employees as Users, and give them restricted access. Tools like Role Permission and User Permission allow you to define rules which give restricted access to the user to masters and transactions."
+msgstr "U LaahTech-EM-u možete dodati svoje zaposlenike kao korisnike i dati im ograničen pristup. Alati kao što su Dozvola za ulogu i Dozvola korisnika omogućavaju vam da definišete pravila koja daju ograničen pristup korisniku masterima i transakcijama."
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Customize Form Field'
@@ -12579,8 +12579,8 @@ msgstr "U standardnom filteru"
 
 #. Description of the Onboarding Step 'Generate Custom Reports'
 #: frappe/custom/onboarding_step/report_builder/report_builder.json
-msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in ERPNext by pulling values from the same multiple ERPNext tables.\n"
-msgstr "U svakom modulu ćete pronaći mnoštvo izvještaja jednim klikom, u rasponu od finansijskih izvještaja do analitike prodaje i kupovine i izvještaja o praćenju zaliha. Ako traženi novi izvještaj nije dostupan odmah, možete kreirati prilagođene izvještaje u ERPNext-u tako što ćete povući vrijednosti iz istih višestrukih ERPNext tabela.\n"
+msgid "In each module, you will find a host of single-click reports, ranging from financial statements to sales and purchase analytics and stock tracking reports. If a required new report is not available out-of-the-box, you can create custom reports in LaahTech-EM by pulling values from the same multiple LaahTech-EM tables.\n"
+msgstr "U svakom modulu ćete pronaći mnoštvo izvještaja jednim klikom, u rasponu od finansijskih izvještaja do analitike prodaje i kupovine i izvještaja o praćenju zaliha. Ako traženi novi izvještaj nije dostupan odmah, možete kreirati prilagođene izvještaje u LaahTech-EM-u tako što ćete povući vrijednosti iz istih višestrukih LaahTech-EM tabela.\n"
 
 #. Description of the 'Font Size' (Float) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -28867,7 +28867,7 @@ msgstr "Radni tok je uspješno ažuriran"
 
 #. Description of the Onboarding Step 'Setup Approval Workflows'
 #: frappe/custom/onboarding_step/workflows/workflows.json
-msgid "Workflows allow you to define custom rules for the approval process of a particular document in ERPNext. You can also set complex Workflow Rules and set approval conditions."
+msgid "Workflows allow you to define custom rules for the approval process of a particular document in LaahTech-EM. You can also set complex Workflow Rules and set approval conditions."
 msgstr "Radni tokovi vam omogućavaju da definišete prilagođena pravila za proces odobravanja određenog dokumenta u ERPNextu. Takođe možete postaviti složena pravila radnog toka i postaviti uslove odobrenja."
 
 #. Linked DocType in Module Def's connections
@@ -31978,4 +31978,3 @@ msgstr "{} nije pronađeno u PATH! Ovo je potrebno za izradu sigurnosne kopije."
 #: frappe/public/js/frappe/file_uploader/WebLink.vue:4
 msgid "← Back to upload files"
 msgstr "← Nazad na učitavanje datoteka"
-
