@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   commit-lint:
-    name: 'Semantic Commits'
+    name: "Semantic Commits"
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
 
@@ -32,7 +32,7 @@ jobs:
           npx commitlint --verbose --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }}
 
   linter:
-    name: 'Semgrep Rules'
+    name: "Semgrep Rules"
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
 
@@ -40,11 +40,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
           cache: pip
 
       - name: Download Semgrep rules
-        run: git clone --depth 1 https://github.com/frappe/semgrep-rules.git frappe-semgrep-rules
+        run: git clone --depth 1 https://github.com/La-ah-Tech/semgrep-rules.git frappe-semgrep-rules
 
       - name: Run Semgrep rules
         run: |
@@ -52,13 +52,13 @@ jobs:
           semgrep ci --config ./frappe-semgrep-rules/rules --config r/python.lang.correctness
 
   deps-vulnerable-check:
-    name: 'Vulnerable Dependency Check'
+    name: "Vulnerable Dependency Check"
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - uses: actions/checkout@v4
 
